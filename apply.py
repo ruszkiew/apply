@@ -2,8 +2,9 @@
 
 ############################################################
 #                                                          #
-# apply.py    - v2.2    - 10/24/18                         #
+# apply.py    - v2.3    - 12/12/18                         #
 #                                                          #
+# v2.3 - added to GitHub                                   #
 # v2.2 - moved all prints to () for v3 support             #
 # v2.1 - command output was fixed - put direct into list   #
 # v2.0 - added absolute timeout for channel receiving      #
