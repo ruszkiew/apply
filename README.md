@@ -3,7 +3,7 @@
 ## Support Modules
 Paramiko - http://www.paramiko.org/installing.html
 
- 'pip install paramiko'
+# 'pip install paramiko'
 
 ## Usage
 
@@ -18,7 +18,7 @@ Paramiko - http://www.paramiko.org/installing.html
 
     Usage Notes:
        This script creates an SSH channel and prompts the user for username and password.
-       It is not advised by the username and password can be hardcoded in the script.
+       It is not advised, but the username and password can be hardcoded in the script.
 
 ## Examples
 
