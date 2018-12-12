@@ -195,10 +195,15 @@ def sshDevice(_ip_address,_username,_password, _command_list):
 
 DEBUG = False
 
-# username = 'eruszkiewicz'
+
+# fix python 3.x raw_input
+try: input = raw_input
+except NameError: pass
+
+# username = 'uid'
 username = input('Enter username for device login:')
 
-# password = 'supersecret'
+# password = 'pwd'
 password = enterPassword()
 
 device_list = getDevices();
