@@ -3,7 +3,7 @@ Cisco IOS CLI Automation
 
 ## Support Modules
  
- * standard modules
+### Standard modules
     import os 
     import socket  
     import getpass   
@@ -11,13 +11,9 @@ Cisco IOS CLI Automation
     import sys
     from time import sleep
 
- * external modules
+### External Modules
     import paramiko
-    from paramiko import SSHClient,AutoAddPolicy
-    
- * apply supplement modules
-     
- 
+    from paramiko import SSHClient,AutoAddPolicy 
 
 Paramiko - http://www.paramiko.org/installing.html
 
