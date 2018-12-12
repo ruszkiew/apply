@@ -3,22 +3,22 @@
 ## Support Modules
 Paramiko - http://www.paramiko.org/installing.html
 
-'pip install paramiko'
+ 'pip install paramiko'
 
 ## Usage
 
-python apply.py -h
+    python apply.py -h
 
-Usage:
-  ./apply.py <device_name>|<device_ip>|<file_of_devices> <command>|<file_of_commands>
+    Usage:
+      ./apply.py <device_name>|<device_ip>|<file_of_devices> <command>|<file_of_commands>
 
-Description:
-   The apply utility lets you easily touch any number of devices and execute a
-   single or list of commands.
+    Description:
+       The apply utility lets you easily touch any number of devices and execute a
+       single or list of commands.
 
-Usage Notes:
-   This script creates an SSH channel and prompts the user for username and password.
-   It is not advised by the username and password can be hardcoded in the script.
+    Usage Notes:
+       This script creates an SSH channel and prompts the user for username and password.
+       It is not advised by the username and password can be hardcoded in the script.
 
 ## Examples
 
