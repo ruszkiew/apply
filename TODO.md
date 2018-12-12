@@ -1,10 +1,10 @@
 # TODO
 
-update and cleanup documentation
+Update and cleanup documentation
 
-allow to pass in variables to glean
+Allow to pass in variables to glean
 
-add error correction - component testing
+Add error correction - component testing
 
-add error correction - debug switch 
+Add error correction - debug switch 
 
