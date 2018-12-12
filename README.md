@@ -1,14 +1,12 @@
 # apply.py
 Cisco IOS CLI Automation
 
-## Support Modules / Libraries
-
- * libraries
-
+## Support Modules
+ 
  * standard modules
-    import os
-    import socket
-    import getpass
+    import os 
+    import socket  
+    import getpass   
     import re
     import sys
     from time import sleep
@@ -16,8 +14,10 @@ Cisco IOS CLI Automation
  * external modules
     import paramiko
     from paramiko import SSHClient,AutoAddPolicy
-
+    
  * apply supplement modules
+     
+ 
 
 Paramiko - http://www.paramiko.org/installing.html
 
