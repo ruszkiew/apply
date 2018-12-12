@@ -1,9 +1,10 @@
-# 'apply.py' Cisco IOS CLI Automation
+# apply.py
+Cisco IOS CLI Automation
 
 ## Support Modules
 Paramiko - http://www.paramiko.org/installing.html
 
-# 'pip install paramiko'
+    pip install paramiko
 
 ## Usage
 
