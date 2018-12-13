@@ -21,7 +21,7 @@
 # v1.2 - added name resolution                             #
 # v1.1 - added username and password prompt                #
 # v1.0 - initial code based on Cisco PRNE class lab        #
-#      - named it 'apply' from Craig Weinhold perl script  #
+# v0.0 - named it 'apply' from Craig Weinhold perl script  #
 #                                                          # 
 #                                                          # 
 # *************** TODO *******************                 #  
