@@ -141,10 +141,6 @@ def readChannelRecv(_channel):
 
 def sshDevice(_ip_address,_username,_password, _command_list):
 
-   # print("***************")
-   # print(_ip_address)
-   # print("***************")
-
    if DEBUG: print("SSHDEVICE")
 
    ssh = SSHClient()
@@ -194,7 +190,6 @@ def sshDevice(_ip_address,_username,_password, _command_list):
 # main
 
 DEBUG = False
-
 
 # fix python 3.x raw_input
 try: input = raw_input
