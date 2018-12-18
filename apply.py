@@ -2,8 +2,9 @@
 
 ############################################################
 #                                                          #
-# apply.py    - v2.6    - 12/12/18                         #
+# apply.py    - v2.7    - 12/18/18                         #
 #                                                          #
+# v2.7 - updated socket connection exception               #
 # v2.6 - fixed input for python v2.7 + v3.0                #
 # v2.5 - added to github                                   #
 # v2.4 - added more debug - added /n to command array      #
@@ -188,8 +189,8 @@ def sshDevice(_ip_address,_username,_password, _command_list):
        print(' ## Authentication Failed ##')
    except  paramiko.SSHException:
        print(' ## Issues with SSH Service ##')
-   except  socket.error:
-       print(' ## Connection Socket Error ##')
+   except  Exception:
+       print ('  ## Generic Connection Error ##')
 
    if DEBUG: print("SSHDEVICE-RETURN")
 
