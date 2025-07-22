@@ -13,6 +13,10 @@ from paramiko import SSHClient,AutoAddPolicy
 
 ###########################################################
 
+
+
+###########################################################
+
 def cliUsage():
    print(
          "\n"
@@ -165,10 +169,12 @@ if __name__ == "__main__":
     try: input = raw_input
     except NameError: pass
 
-    username = 'cisco'
-    # username = input('Enter username for device login:')
-    password = 'cisco'
-    # password = enterPassword()
+    username = os.environ.get("ROUTER_USERNAME")
+    password = os.environ.get("ROUTER_PASSWORD")
+
+    if username is None or password is None:
+        username = input('Enter username for device login:')
+        password = enterPassword()
 
     device_list = getDevices();
     command_list = getCommands();
