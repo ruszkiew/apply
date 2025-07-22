@@ -167,7 +167,7 @@ def main():
     try: input = raw_input
     except NameError: pass
 
-    username = os.environ.get("ROUTER_USERNAME")
+    username = os.environ.get("ROUTER_USER")
     password = os.environ.get("ROUTER_PASSWORD")
 
     if username is None or password is None:
