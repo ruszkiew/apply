@@ -1,6 +1,6 @@
 
 Usage:
-  ./apply.py <device_name>|<device_ip>|<file_of_devices> <command>|<file_of_commands>
+  apply.py <device_name>|<device_ip>|<file_of_devices> <command>|<file_of_commands>
 
 Description:
    The apply utility lets you easily SSH to any number of devices and execute a
