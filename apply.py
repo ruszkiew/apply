@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#! /usr/bin/env python3
 
 ############################################################
 #                                                          #
@@ -13,7 +13,7 @@
 # v2.1 - command output was fixed - put direct into list   #
 # v2.0 - added absolute timeout for channel receiving      #
 # v1.9 - added debug boolean for function printouts        #
-# v1.8 - updated SSH without threads  - Tim Way help       #
+# v1.8 - updated SSH without threads                       #
 # v1.7 - using ios_cli_parse to glean variablas to device  #
 # v1.6 - added 'usage' output and checked for argv exist   #
 # v1.5 - created more functions to prep for unit testing   #
@@ -205,11 +205,10 @@ if __name__ == "__main__":
     try: input = raw_input
     except NameError: pass
 
-    # username = 'uid'
-    username = input('Enter username for device login:')
-
-    # password = 'pwd'
-    password = enterPassword()
+    username = 'cisco'
+    # username = input('Enter username for device login:')
+    password = 'cisco'
+    # password = enterPassword()
 
     device_list = getDevices();
     command_list = getCommands();
