@@ -161,9 +161,7 @@ def sshDevice(_ip_address,_username,_password, _command_list):
 
 ###########################################################
 
-if __name__ == "__main__":
-
-    DEBUG = False
+def main():
 
     # fix python 3.x raw_input
     try: input = raw_input
@@ -183,9 +181,15 @@ if __name__ == "__main__":
     for device in device_list:
         if DEBUG: print("MAIN-FOR")
         ip_address = resolveDevice(device)
-
         data = sshDevice(ip_address,username,password,command_list)
         for line in data:
             print(line)
+
+###########################################################
+
+DEBUG = False
+
+if __name__ == '__main__':
+    main()
 
 ###########################################################
