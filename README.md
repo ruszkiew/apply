@@ -3,12 +3,13 @@ Usage:
   ./apply.py <device_name>|<device_ip>|<file_of_devices> <command>|<file_of_commands>
 
 Description:
-   The apply utility lets youu easily touch any number of devices and execute a
+   The apply utility lets you easily SSH to any number of devices and execute a
    single or list of commands.
 
 Usage Notes:
    This script creates an SSH channel and prompts the user for username and password.
-   It is not advised by the username and password can be hardcoded in the script.
+   Environmental variables ROUTER_USERNAME and ROUTER_PASSWORD could also be used
+     but not recommended.
 
 Examples:
     apply.py my_router 'show ip int brief'

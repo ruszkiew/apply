@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47b64439-cdd2-4c92-ba1a-0becdc22fda7" name="Changes" comment="cleanup">
-      <change beforePath="$PROJECT_DIR$/apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/apply.py" afterDir="false" />
+    <list default="true" id="47b64439-cdd2-4c92-ba1a-0becdc22fda7" name="Changes" comment="readme">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,9 @@
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -47,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713199322570</updated>
       <workItem from="1713199323679" duration="4392000" />
-      <workItem from="1753192850299" duration="2044000" />
+      <workItem from="1753192850299" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="password management">
       <option name="closed" value="true" />
@@ -81,7 +84,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753193905833</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added environmental authentication creds">
+      <option name="closed" value="true" />
+      <created>1753195049964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753195049964</updated>
+    </task>
+    <task id="LOCAL-00006" summary="readme">
+      <option name="closed" value="true" />
+      <created>1753195132963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753195132963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +109,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="password management" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="added environmental authentication creds" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
